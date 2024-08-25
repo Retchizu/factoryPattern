@@ -27,12 +27,14 @@ public class Clinic {
                     petFile.setPetName("Bantay");
                     petFile.setPet(pet);
                     ((Dog) pet).setBreed("German Shepperd");
+                    System.out.println("Dog Breed:" + ((Dog) pet).getBreed());
                     break;
                 case 2: pet = new Cat();
                     petFile.setPetId("C01");
                     petFile.setPetName("Muning");
                     petFile.setPet(pet);
                     ((Cat) pet).setNoOfLives(9);
+                    System.out.println("Number of lives:" + ((Cat) pet).getNoOfLives());
                     break;
                 case 3:
                 System.out.println("Program terminated");
